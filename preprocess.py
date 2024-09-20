@@ -5,8 +5,8 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
 
 # 데이터 경로 설정
-train_data_dir = r"C:\Users\CHOI\Desktop\deeplearning\amIHairLoss\scalp_image\Training"
-validation_data_dir = r"C:\Users\CHOI\Desktop\deeplearning\amIHairLoss\scalp_image\Validation"
+train_data_dir = r"C:\deeplearning\amIHairLoss\유형별 두피 이미지\Training"
+validation_data_dir = r"C:\deeplearning\amIHairLoss\유형별 두피 이미지\Validation"
 categories = ['none', 'mild', 'moderate', 'severe']  # 탈모 단계별 폴더 이름
 
 # 이미지 크기 설정
