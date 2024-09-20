@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Am I Hair Loss?</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            color: #384047;
+            background: #f4f7f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .result-card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #ffffff;
+            background-color: #010138d2;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+        }
+
+        a:hover {
+            background-color: #000026;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>탈모 검사 결과</h1>
+        <div class="result-card">
+            <p>예측된 탈모 단계: {{ predicted_class }}</p>
+            <a href="/">다시 검사하기</a>
+        </div>
+    </div>
+</body>
+</html>

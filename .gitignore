@@ -1,0 +1,12 @@
+/.ipynb_checkpoints
+/model.h5
+/samples
+/scalp_image
+/search.html
+/test.py
+/X_test.npy
+/X_train.npy
+/X_val.npy
+/y_test.npy
+/y_train.npy
+/y_val.npy
